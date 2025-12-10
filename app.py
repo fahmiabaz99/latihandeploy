@@ -8,7 +8,7 @@ st.title("Aplikasi Klasifikas Komentar")
 st.write("Aplikasi Gabut Aja Ini Mah")
 input.text_area("Masukan Komentar Anda!")
 
-if st.buttom("Prediksi")
+if st.buttom("Prediksi"):
     if input.strip() == "":
         st.warning("Tolong Komentar Jangan Kosong")
     else:
